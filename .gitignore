@@ -4,3 +4,7 @@
 *.tmp
 *~
 .DS_Store
+data/payload_details.js
+data/tweet_index.js
+data/user_details.js
+data/tweets/20*.js
