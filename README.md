@@ -1,3 +1,13 @@
+An experimental project to update the default twitter backup files viewer.
+
+# Changes
+
+Updated/upgraded files:
+
+- jquery 1.8.3 -> jquery 3.3.1
+- underscore 1.4.1 -> underscore 1.9.1
+- hogan 2.0.0 -> hogan 3.0.1
+
 # How to use your Twitter archive
 
 The simplest way to use your Twitter archive is through the archive browser interface provided in this file. Just double-click `index.html` from the root folder and you can browse your entire history of Tweets from inside your browser.
