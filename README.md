@@ -8,6 +8,13 @@ Updated/upgraded files:
 - underscore 1.4.1 -> [underscore 1.9.1](https://underscorejs.org/)
 - hogan 2.0.0 -> [hogan 3.0.1](https://twitter.github.io/hogan.js/)
 
+# Improvements
+
+Taken from [@mislav/tweets](https://github.com/mislav/tweets/commits/master):
+
+- Ability to add URL tweets search parameter 'q' i.e. index.html?**q=test**
+- Unminified css/application.css and modified to preserve line-breaks in tweet (also updated css/application.min.css with this change)
+ 
 # How to use your Twitter archive
 
 The simplest way to use your Twitter archive is through the archive browser interface provided in this file. Just double-click `index.html` from the root folder and you can browse your entire history of Tweets from inside your browser.
