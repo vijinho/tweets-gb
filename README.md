@@ -4,9 +4,9 @@ An experimental project to update the default twitter backup files viewer.
 
 Updated/upgraded files:
 
-- jquery 1.8.3 -> jquery 3.3.1
-- underscore 1.4.1 -> underscore 1.9.1
-- hogan 2.0.0 -> hogan 3.0.1
+- jquery 1.8.3 -> [jquery 3.3.1](https://jquery.com/upgrade-guide/3.0/#jquery-migrate-plugin)
+- underscore 1.4.1 -> [underscore 1.9.1](https://underscorejs.org/)
+- hogan 2.0.0 -> [hogan 3.0.1](https://twitter.github.io/hogan.js/)
 
 # How to use your Twitter archive
 
