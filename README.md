@@ -1,4 +1,4 @@
-An experimental project to update the default twitter backup files viewer.
+An experimental project to update the default twitter backup files viewer. This is a companion project for [@vijinho/tweets-cli](https://github.com/vijinho/tweets-cli) which is used to generate the data files for viewing (using the *--grailbird* option on that script).
 
 # Changes
 
