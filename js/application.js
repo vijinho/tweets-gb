@@ -460,10 +460,10 @@ var Grailbird = function (type, date, data) {
               searchMatch = true;
             } else if(!!(tweet.retweeted_status && (tweet.retweeted_status.user && tweet.retweeted_status.user.name.match(searchRegex)))){
               searchMatch = true;
-            } else if(!!(tweet.retweeted_status && (tweet.retweeted_status.user && tweet.retweeted_status.user.screen_name.match(searchRegex)))){
-              searchMatch = true;
-            } else if(!!(tweet.retweeted_status && (tweet.retweeted_status_user && ('@'+tweet.retweeted_status.user.screen_name).match(searchRegex)))){
-              searchMatch = true;
+            //} else if(!!(tweet.retweeted_status && (tweet.retweeted_status.user && tweet.retweeted_status.user.screen_name.match(searchRegex)))){
+            //  searchMatch = true;
+            //} else if(!!(tweet.retweeted_status && (tweet.retweeted_status_user && ('@'+tweet.retweeted_status.user.screen_name).match(searchRegex)))){
+            //  searchMatch = true;
             } else if(!!(tweet.entities)){
               _.each(tweet.entities.urls || [], function (u){
                 if((u.display_url && u.display_url.match(escapedSearchRegex)) || (u.expanded_url && u.expanded_url.match(escapedSearchRegex))){
